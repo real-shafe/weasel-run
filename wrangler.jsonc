@@ -1,0 +1,9 @@
+// Static-files Worker: serves public/ at weasel-run.shafe.dev
+{
+  "name": "weasel-run",
+  "compatibility_date": "2025-07-15",
+  "assets": { "directory": "./public" },
+  "routes": [
+    { "pattern": "weasel-run.shafe.dev", "custom_domain": true }
+  ]
+}
